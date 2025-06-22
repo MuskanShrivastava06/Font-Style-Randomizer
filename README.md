@@ -47,12 +47,12 @@ The app will run at `http://localhost:5173` (if using Vite).
 ## 🖼️ Screenshots
 
 ### Light Mode  
-![Light Mode](screenshots/light-mode.png)
+![Light Mode](public/ss1.png)
 
 ### Dark Mode  
-![Dark Mode](screenshots/dark-mode.png)
+![Dark Mode](public/ss2.png)
 
-> You can add screenshots in a `/screenshots/` folder and reference them here.
+>
 
 ---
 
@@ -63,14 +63,4 @@ The app will run at `http://localhost:5173` (if using Vite).
 - Google Fonts API
 - CSS Modules
 
----
 
-## 🎥 Demo (Optional)
-
-You can record a short 2–3 min screen recording explaining how the app works and upload it with your submission.
-
----
-
-## 📄 License
-
-This project is open-source and free to use.
