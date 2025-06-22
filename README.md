@@ -1,12 +1,76 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎨 Font Style Randomizer (React App)
 
-Currently, two official plugins are available:
+A fun and creative React application that allows users to experiment with Google Fonts by applying different font styles to sample text blocks like headings, paragraphs, and quotes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎲 **Randomize Fonts**: Apply random Google Fonts to text blocks.
+- 📝 **Custom Text Input**: Edit sample text directly.
+- 🎨 **Style Controls**: Apply **Bold**, _Italic_, or Underline styles to each block.
+- 🔠 **Font Size Slider**: Adjust font size dynamically.
+- 🌙 **Dark Mode Toggle**: Switch between light and dark themes.
+- 🔄 **Reset Button**: Revert text block styles to default.
+- 💾 **Save Configuration**: Save font and style settings in localStorage.
+- 🗑️ **Remove Configuration**: Clear saved font styles.
+- 👁️‍🗨️ **Live Font Preview in Dropdown** (Enhanced Feature)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/font-randomizer.git
+cd font-randomizer
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+The app will run at `http://localhost:5173` (if using Vite).
+
+---
+
+## 🖼️ Screenshots
+
+### Light Mode  
+![Light Mode](screenshots/light-mode.png)
+
+### Dark Mode  
+![Dark Mode](screenshots/dark-mode.png)
+
+> You can add screenshots in a `/screenshots/` folder and reference them here.
+
+---
+
+## 📁 Tech Stack
+
+- React.js
+- Vite
+- Google Fonts API
+- CSS Modules
+
+---
+
+## 🎥 Demo (Optional)
+
+You can record a short 2–3 min screen recording explaining how the app works and upload it with your submission.
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
